@@ -1,0 +1,164 @@
+/* All Common Css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul, ol{
+    list-style-type: none;
+
+}
+a, a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container{
+    margin: 0 auto !important;
+}
+
+/* All Common Css End */
+.navbar{
+    position: fixed !important;
+    width: 100%;
+}
+.navbar-nav .nav-item{
+    color: #DDDDDD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+    color: #DDDDDD;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.navbar-nav .nav-link .active {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.Searchbtn{
+    font-size: 16px;color: #FFF;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sign{
+    margin: 0 27px;
+}
+/* Banner part css start  */
+#banner{
+    background: url(../images/banner2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    font-family: "Oswald", sans-serif
+}
+.bannerContent{
+    position: relative;
+   padding-top: 337px;
+    padding-bottom: 103px;
+}
+.bannerContent h3{
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10%;
+}
+.bannerContent h1{
+    
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 125px;
+    
+} 
+.afterTag{
+    position: absolute;
+    transform: translateX(-50%);    
+
+    width: 90px;
+    height: 4px;
+    background: #D9D9D9;
+    color: #dbadad;
+    font-family: Oswald;
+    top:443px;
+    right: -120px;
+    border: 4px solid #D9D9D9 !important;
+}  
+.bannerContent a{
+    color: #121212;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #FFFFFF;
+}
+
+.socialIcon a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 301px;
+     
+}
+
+#aboutPart{
+    
+    background-color: #121212;
+}
+#aboutPart .aboutContent{
+    position: relative;
+}
+
+#aboutPart .aboutContent h2{
+    color: #FFFFFF;
+    font-family: Oswald;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 58px;
+}
+/* #aboutPart .afterTag2{
+    width: 120px;
+    height: 3px;
+    background: #D9D9D9;
+    color: #dbadad;
+    font-family: Oswald;
+    border: 4px solid #D9D9D9 !important;
+    
+} */
+#aboutPart .afterTag2::after{
+    content: " ";
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    width: 120px;
+    border: 2px solid #FF4655 !important;
+    transform: translate(-50%, -50%);
+}
+
