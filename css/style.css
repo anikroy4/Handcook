@@ -94,9 +94,7 @@ h1,h2,h3,h4,h5,h6,p{
 .afterTag{
     position: absolute;
     transform: translateX(-50%);    
-
     width: 90px;
-    height: 4px;
     background: #D9D9D9;
     color: #dbadad;
     font-family: Oswald;
