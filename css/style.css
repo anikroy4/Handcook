@@ -271,3 +271,118 @@ h1,h2,h3,h4,h5,h6,p{
 #aboutPart .content{
     padding-bottom: 81px;    
 }
+/* popular part start */
+#popularGames{
+    background-color: #191919;
+    padding: 100px 0;
+}
+#popularGames .popularContent2{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: end;
+}
+
+#popularGames .heading{
+    
+    width: 80%;
+    text-align: end;
+    margin-left: 154px;
+    position: relative !important;
+    
+    
+}
+#popularGames h2{
+    color: #FFF;
+    text-align: right;
+    font-family: "Barlow Condensed";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.66px;
+    text-align: end;
+    
+}
+#popularGames .afterTag3::after{
+    content: " ";
+    position: absolute;
+    bottom: 7%;
+    right: 11%;
+    width: 120px;
+    border: 2px solid #FF4655 !important;
+    transform: translate(-50%, -50%);
+}
+/* popular part end */
+
+/* live Steaming Part Start */
+#liveStreaming{
+    background-color: #121212;
+    padding-top: 90px;
+}
+
+#liveStreaming .sreamHeading{
+    position: relative !important;
+}
+#liveStreaming h2{
+   color: #FFF;
+    font-family: Oswald;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.66px;
+    width: 35%;
+}
+
+#liveStreaming .sreamHeading .afterTag4::before{
+    content: " ";
+    position: absolute;
+    bottom: 7%;
+    left: 16.5%;
+    width: 120px;
+    border: 2px solid #FF4655 !important;
+    transform: translate(-50%, -50%);
+}
+#liveStreaming .streamContent{
+    margin-top: 69px;
+    margin-bottom: 61px;
+}
+#liveStreaming .liveScore h4{
+    text-align: center;
+    color: #FFF;
+    font-family: "Barlow Condensed";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.25px;
+    margin-bottom: 40px;
+    
+    
+}
+.teamScoreBoard{
+    padding-bottom: 92px;
+}
+
+#liveStreaming .liveScore .teamContent1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#liveStreaming .liveScore .teamContent2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+}
+#liveStreaming .liveScore .score{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+/* live Steaming Part End */
